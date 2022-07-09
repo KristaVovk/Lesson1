@@ -1,11 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
     background: silver;
     width: 700px;
-    height: 1000px;
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .First {
@@ -15,6 +20,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    /*font-size: 30px;*/
 }
 
 .Second {
@@ -24,13 +31,19 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    margin: auto;
 }
 
-.chaild {
+.box {
     background: blueviolet;
     height: 200px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
 
 .Third {
     background: sandybrown;
@@ -40,6 +53,7 @@
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    margin: auto;
 }
 
 
