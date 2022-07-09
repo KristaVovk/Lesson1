@@ -1,0 +1,45 @@
+.container {
+    background: silver;
+    width: 700px;
+    height: 1000px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+
+}
+
+.First {
+    background: sandybrown;
+    width: 380px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Second {
+    width: 380px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.chaild {
+    background: blueviolet;
+    height: 200px;
+
+}
+
+.Third {
+    background: sandybrown;
+    width: 380px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+

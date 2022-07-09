@@ -1,0 +1,24 @@
+h1{
+    background: darkgreen;color: azure;text-align: center;
+}
+h2{
+    background: beige;color: blue;
+}
+h3{
+    background: honeydew;color: #555555;
+}
+h4{
+    background: peachpuff;color: blueviolet;
+}
+p{
+    background: antiquewhite; color: brown;
+}
+ul{
+    background: darksalmon;color: honeydew;
+}
+li{
+    background: lightgrey;color: maroon;
+}
+img{
+    width: 200px;
+}
