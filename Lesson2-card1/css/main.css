@@ -36,16 +36,17 @@
     text-align: center;
     margin: 0;
 }
-p {
+.description {
     box-sizing: border-box;
     text-align: center;
 }
 .button-box {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 50px;
 }
-.button-box > a {
+.button-box> a {
     display: block;
     height: 50px;
     width: 150px;
