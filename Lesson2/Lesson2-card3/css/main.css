@@ -1,0 +1,50 @@
+* {
+    /*margin: 0;*/
+    /*padding: 0;*/
+}
+
+.father {
+    height: 700px;
+    width: 800px;
+    background: azure;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.card {
+    height: 150px;
+    width: 350px;
+    background: white;
+    border: 3px solid slategrey;
+    display: flex;
+    border-radius: 10px;
+}
+.icon {
+    height: 150px;
+    width: 150px;
+    /*border: 2px solid olivedrab;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon> i {
+    font-size: 60px;
+    color: darkcyan;
+}
+.title {
+    height: 150px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*border: 1px solid tomato;*/
+}
+.title> h4 {
+    color: darkcyan;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
