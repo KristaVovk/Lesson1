@@ -1,0 +1,63 @@
+.body {
+    height: 100vh;
+}
+.dja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap {
+    position: relative;
+}
+.text {
+    text-align: center;
+}
+.father {
+    height: 600px;
+    width: 1000px;
+    /*background: aqua;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.circle{
+    height: 90px;
+    width: 90px;
+    border: 3px solid cornflowerblue;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i {
+    font-size: 50px;
+    color: tomato;
+}
+
+.hw {
+    height: 400px;
+    width: 300px;
+    border: 3px solid cornflowerblue;
+    flex-direction: column;
+
+}
+.description {
+    margin-top: 20px;
+}
+.button-box {
+    height: 50px;
+    width: 150px;
+    background: tomato;
+    margin-top: 50px;
+}
+.button-box:hover{
+    background: olivedrab;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
