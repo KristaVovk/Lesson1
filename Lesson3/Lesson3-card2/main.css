@@ -10,8 +10,8 @@
     width: 500px;
     height: 200px;
     background: #102c47;
-    position: relative;
-    top: 100px;
+    position: absolute;
+    top: 80px;
 }
 .target{
     width: 100%;
@@ -32,12 +32,30 @@
     width: 500px;
     height: 500px;
     background: #d3ddf1;
-    /*position: absolute;*/
+    position: relative;
 }
 .littleBox {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 20px;
     background: #102c47;
     position: absolute;
-    bottom: 200px;
+    left: 30px;
+    top: 25px;
+    border-radius: 5px;
+}
+.fa-solid {
+    width: 50px;
+    height: 100px;
+    color: #102c47;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 25px;
+}
+.fa-magnifying-glass {
+    right: 60px;
+}
+.fa-bars {
+    right: 30px;
 }
