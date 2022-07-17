@@ -1,0 +1,114 @@
+.wrap {
+    height: 700px;
+    width: 90%;
+    /*background: antiquewhite;*/
+    text-align: center;
+    align-items: center;
+    vertical-align: center;
+    line-height: 200px;
+
+}
+
+.box_a {
+    height: 200px;
+    width: 100%;
+    background: darksalmon;
+    border: 3px solid slategrey;
+    border-radius: 15px;
+    margin: 15px;
+
+}
+.father {
+    height: 400px;
+    width: 100%;
+    /*background: olive;*/
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+.container_bcde {
+    height: 400px;
+    width: 75%;
+    /*background: antiquewhite;*/
+}
+.box_b {
+    height: 200px;
+    width: 100%;
+    background: blanchedalmond;
+    border: 3px solid slategrey;
+    border-radius: 15px;
+}
+.box_cde {
+    height: 200px;
+    width: 100%;
+    /*background: blueviolet;*/
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 15px;
+}
+.box_c {
+    height: 200px;
+    width: 25%;
+    background: silver;
+    border: 3px solid slategrey;
+    border-radius: 15px;
+}
+
+.box_d {
+    height: 200px;
+    width: 25%;
+    background: silver;
+    border: 3px solid slategrey;
+    border-radius: 15px;
+}
+.box_e {
+    height: 200px;
+    width: 25%;
+    background: silver;
+    border: 3px solid slategrey;
+    border-radius: 15px;
+}
+.box_f {
+    height: 400px;
+    width: 25%;
+    background: burlywood;
+    border: 3px solid slategrey;
+    border-radius: 15px;
+    line-height: 400px;
+    margin-left: 15px;
+}
+@media screen and (max-width: 900px) {
+    .wrap {
+        width: 90%;
+        height: 900px;
+    }
+    .father {
+        flex-direction: column;
+        height: 700px;
+    }
+    .box_b {
+        width: 100%;
+        height: 200px;
+    }
+
+    .container_bcde {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 20px;
+
+    }
+    .box_cde {
+        width: 100%;
+        height: 200px;
+        /*margin-bottom: 15px;*/
+    }
+    .box_f {
+        width: 100%;
+        height: 200px;
+        line-height: 200px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}

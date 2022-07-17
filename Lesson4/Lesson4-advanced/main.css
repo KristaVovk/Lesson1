@@ -1,0 +1,38 @@
+.body {
+    margin: 0;
+}
+.wrap {
+    height: 900px;
+    width: 100%;
+    background: aquamarine;
+    text-align: center;
+    /*margin: 10px;*/
+
+}
+.header {
+    height: 150px;
+    width: 100%;
+    background: silver;
+    display: flex;
+
+}
+.logo {
+    height: 150px;
+    width: 20%;
+    background: antiquewhite;
+}
+.header1 {
+    height: 150px;
+    width: 80%;
+    background: cornflowerblue;
+}
+.nav {
+    height: 400px;
+    width: 20%;
+    background: tomato;
+}
+.section_45 {
+    height: 200px;
+    width: 80%;
+    background: goldenrod;
+}
